@@ -151,7 +151,7 @@ function App() {
             </select>
             <button onClick={toggleDarkMode} className={`border-none rounded-lg text-white font-medium hover:bg-[#6C63FF] bg-[#6C63FF] pl-3 pr-3 transition-colors ${isDarkMode ? "bg-[#6C63FF] text-white" : "bg-[#6C63FF] text-black"}`}>
 
-              <img src={isDarkMode ? "/public/moon.svg" : "/public/dark.svg"} alt="" />
+              <img src={isDarkMode ? "/moon.svg" : "/dark.svg"} alt="" />
             </button>
           </div>
 
